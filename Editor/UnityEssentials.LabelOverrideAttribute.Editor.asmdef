@@ -1,0 +1,16 @@
+{
+    "name": "UnityEssentials.LabelOverrideAttribute.Editor",
+    "rootNamespace": "UnityEssentials",
+    "references": [
+        "GUID:90ec9bbf957815144841c46153fc35f6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
