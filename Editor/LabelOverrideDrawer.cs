@@ -14,13 +14,11 @@ namespace UnityEssentials
                 var propertyAttribute = this.attribute as LabelOverrideAttribute;
                 if (!IsPropertyAnArrayElement(property))
                     label.text = propertyAttribute.Label;
-                else
-                {
-                    Debug.LogWarningFormat(
-                        "{0}(\"{1}\") doesn't support arrays ",
-                        typeof(LabelOverrideAttribute).Name,
-                        propertyAttribute.Label);
-                }
+                else Debug.LogWarningFormat(
+                    "{0}(\"{1}\") doesn't support arrays ",
+                    typeof(LabelOverrideAttribute).Name,
+                    propertyAttribute.Label);
+
                 EditorGUI.PropertyField(position, property, label);
             }
             catch (System.Exception ex) { Debug.LogException(ex); }
