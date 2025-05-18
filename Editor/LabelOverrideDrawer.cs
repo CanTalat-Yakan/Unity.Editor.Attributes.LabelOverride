@@ -23,7 +23,7 @@ namespace UnityEssentials
                 }
                 EditorGUI.PropertyField(position, property, label);
             }
-            catch (System.Exception e) { Debug.LogException(e); }
+            catch (System.Exception ex) { Debug.LogException(ex); }
         }
 
         private bool IsPropertyAnArrayElement(SerializedProperty property)
