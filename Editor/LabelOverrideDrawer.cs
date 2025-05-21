@@ -12,6 +12,7 @@ namespace UnityEssentials
             try
             {
                 var propertyAttribute = this.attribute as LabelOverrideAttribute;
+
                 if (!IsPropertyAnArrayElement(property))
                     label.text = propertyAttribute.Label;
                 else Debug.LogWarningFormat(
