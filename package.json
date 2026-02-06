@@ -1,7 +1,7 @@
 {
-  "name": "com.unityessentials.labeloverrideattribute",
-  "version": "1.0.0",
-  "displayName": "Unity Editor Attributes LabelOverride",
+  "name": "com.unityessentials.editor.attributes.labeloverride",
+  "version": "2.0.0",
+  "displayName": "Editor Attributes LabelOverride",
   "description": "This is a part of the UnityEssentials Ecosystem",
   "unity": "6000.0",
   "unityRelease": "",
